@@ -1,19 +1,30 @@
-.celdas {
-    border: 3px solid blue;
-    background-color: white;
-    padding: 3px;
-    margin: 4px;
-}
-
-.cont1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+h1{
     text-align: center;
+    font-size: 50px;
+    color: brown;
 }
-
-.contenedor {
-    width: 678px;
-    height: 186px;
-    border: 1px solid black;
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
 }
+.dato2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.dato1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.celdas {
+    border: 2px solid rgb(255, 60, 0);
+    padding: 8px;
+    margin: 2px;
+ }
+ .botonAsociar{
+     padding: 3px 5px 3px 5px;
+     font: bolder;
+     font-size: 20px;
+     color: midnightblue;
+ }
